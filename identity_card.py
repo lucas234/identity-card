@@ -2,7 +2,7 @@
 import re
 from datetime import datetime, date, timedelta
 import random
-from __init__ import regions
+from regions import regions
 
 
 class IdentityCardWrongException(Exception):
@@ -121,13 +121,4 @@ class IdentityCard(object):
         check_num = cls.get_id_card_verify_number(result+"0")
         return result + check_num
 
-
-test = IdentityCard("632126199312037144")
-print test.get_info()
-print test.get_province()
-print test.get_city()
-print test.get_county()
-print test.get_area()
-print test.get_zodiac()
-print test.get_constellation()
 

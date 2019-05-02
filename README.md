@@ -1,5 +1,8 @@
 ## 一个简单的身份证号码获取用户信息工具 python 版
 中国（大陆地区）公民身份证，数据来源于国家标准GB/T 2260-2007 [中华人民共和国行政区划代码](http://www.mca.gov.cn/article/sj/xzqh/2018/201804-12/201804-06041553.html)
+### 其他语言
+- [PHP](https://github.com/ofcold/identity-card/tree/2.0)
+- [.NET](https://gitee.com/mick666/identity-card.NET/blob/master/README.md)
 ### 说明
 一个基于中华人民共和国公民身份证的组件可以获取用户信息。这个适用于任何python的任何版本。
 ### 使用

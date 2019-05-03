@@ -27,6 +27,7 @@
 　　校验码: 1 0 X 9 8 7 6 5 4 3 2
   
 对应的代码校验如下:
+- java
 ```java
 public class IdentityCard{
     int[] weight={7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2};    //十七位数字本体码权重
@@ -44,6 +45,7 @@ public class IdentityCard{
     }
 }
 ```
+- python
 ```python
 def get_id_card_verify_number(id_card):
     factor = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2]
